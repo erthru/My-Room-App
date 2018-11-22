@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/carter_one</item>
+        <item>@font/changa_one</item>
+        <item>@font/germania_one</item>
+        <item>@font/jockey_one</item>
+        <item>@font/vampiro_one</item>
+    </array>
+</resources>

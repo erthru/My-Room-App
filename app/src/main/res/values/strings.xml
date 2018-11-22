@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Room</string>
+    <string name="default_notification_channel_id">notifchannelid</string>
+</resources>

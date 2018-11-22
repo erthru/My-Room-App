@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingRight="16dp"
+            android:paddingLeft="16dp" android:paddingTop="10dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgLM"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/ic_launcher_background"
+                app:civ_border_color="#FFFFFF"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_vertical"/>
+        <TextView
+                android:text="user name "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvNameLM" android:layout_marginLeft="65dp"
+                android:layout_marginTop="2dp" android:textStyle="bold" android:textColor="@color/colorBlack"
+                android:textSize="20sp" android:singleLine="true" android:layout_marginRight="40dp"/>
+        <TextView
+                android:text="testing last chat with the another sekai waifu wkwkwkwk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvLastChatLM" android:layout_marginLeft="64dp"
+                android:layout_marginTop="28dp" android:singleLine="true" android:layout_marginRight="40dp"/>
+
+        <FrameLayout
+                android:layout_width="24dp"
+                android:layout_height="24dp" android:background="@drawable/circle"
+                android:layout_gravity="right|center_vertical" android:layout_marginTop="-6dp"
+                android:id="@+id/layouUnread" android:visibility="gone">
+
+            <TextView
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/tvUnreadLM" android:layout_gravity="center"
+                    android:textColor="@android:color/white" android:textSize="12sp"/>
+        </FrameLayout>
+        <android.support.v7.widget.FitWindowsFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c808080" android:layout_marginLeft="62dp" android:layout_marginTop="60dp"/>
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

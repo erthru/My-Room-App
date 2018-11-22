@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="This is example of the first chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvPrimaryLC" android:layout_gravity="right"
+                android:layout_marginLeft="60dp" android:background="@drawable/chat_primary"
+                android:textColor="@android:color/white" android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp" android:paddingBottom="8dp" android:paddingTop="8dp"
+                android:paddingLeft="8dp" android:paddingRight="30dp" android:textAlignment="viewStart"/>
+        <TextView
+                android:text="This is example of the very long long long chat @string/default_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tvAccentLC" android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp" android:background="@drawable/chat_accent"
+                android:textColor="@android:color/white" android:layout_marginLeft="16dp" android:paddingTop="8dp"
+                android:paddingBottom="8dp" android:paddingRight="8dp" android:paddingLeft="26dp"
+                android:textAlignment="viewStart"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
